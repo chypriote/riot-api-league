@@ -1,5 +1,5 @@
 {
-	"name": "dolejska-daniel/riot-api-league",
+	"name": "spiregg/riot-api-league",
 	"type": "library",
 	"description": "Riot League of Legends API wrapper for PHP7",
 	"keywords": ["riot", "league of legends", "api", "wrapper", "php7"],
@@ -16,7 +16,7 @@
 		"test": "vendor/bin/phpunit -v --bootstrap phpunit.php --configuration phpunit.xml --coverage-text --coverage-html build/coverage"
 	},
 	"require": {
-		"spiregg/riot-api-base": "dev-master",
+		"spiregg/riot-api-base": "^1.0",
 		"php": ">=8.0"
 	},
 	"require-dev": {
